@@ -3,4 +3,4 @@
 
 ## Features
 
-[MultiSelect Dropdown Demo](https://github.com/SanjaySodani/media/blob/main/multi_select_dropdown.mov)
+![MultiSelect Dropdown Demo](https://github.com/SanjaySodani/media/blob/main/multi_select_dropdown.mov)

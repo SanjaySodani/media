@@ -1,9 +1,22 @@
+<!--
+This README describes the package. If you publish this package to pub.dev,
+this README's contents appear on the landing page for your package.
+
+For information about how to write a good package README, see the guide for
+[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+
+For general information about developing packages, see the Dart guide for
+[creating packages](https://dart.dev/guides/libraries/create-library-packages)
+and the Flutter guide for
+[developing packages and plugins](https://flutter.dev/developing-packages).
+-->
+
 * A simple multiselect dropdown which has **Select All** and **Search** options. 
 * You can use a simple list or a list of maps.
 
 ## Features
 
-https://user-images.githubusercontent.com/88200484/219946035-d5dc8d82-eb14-43d5-a56d-fe217b25764d.mov
+![MultiSelect Dropdown demo](https://github.com/SanjaySodani/media/blob/main/multiselect_dropdown_flutter.gif "Demo")
 
 * Use `MultiSelectDropdown` for list of maps.
 * Use `MultiSelectDropdown.simpleList` for a simple list.
@@ -11,7 +24,7 @@ https://user-images.githubusercontent.com/88200484/219946035-d5dc8d82-eb14-43d5-
 ## Getting started
 
 * Add the package in your flutter project.
-* Import the package `import 'package:multi_select_dropdown/multi_select_dropdown.dart';`.
+* Import the package `import 'package:multiselect_dropdown_flutter/multiselect_dropdown_flutter.dart';`.
 
 ## Usage
 
@@ -40,9 +53,7 @@ class MultiSelectExample extends StatelessWidget {
               // your logic
             },
           ),
-          const SizedBox(
-            height: 50,
-          ),
+          const SizedBox(height: 50),
           MultiSelectDropdown.simpleList(
             list: myList2,
             initiallySelected: const [],
